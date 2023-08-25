@@ -1,0 +1,133 @@
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a global font and background color */
+body {
+  font-family:"Varela Round" ;
+  background: linear-gradient(to bottom, #f7f3eb, #c6c1b7); /* Beige gradient background */
+  color: #333333;
+  overflow-x: hidden;
+}
+
+/* Header styles */
+.header {
+  background: linear-gradient(to bottom, rgba(210, 180, 140, 0.9), rgba(210, 180, 140, 0.6)); /* Beige header background with opacity */
+  text-align: center;
+  padding: 80px 0;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #8c8c8c;
+}
+
+/* Navigation styles */
+.navbar {
+  background: linear-gradient(to bottom, rgba(210, 180, 140, 0.9), rgba(210, 180, 140, 0.6)); /* Beige navigation background with opacity */
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navbar-list li {
+  margin: 0 20px;
+}
+
+.navbar-list a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar-list a:hover {
+  color: #d96528; /* Darker beige on hover */
+}
+
+/* Section styles */
+.section {
+  padding: 80px 0;
+  text-align: center;
+  background: linear-gradient(to bottom, #ffffff, #f7f3eb); /* White to beige gradient background */
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+/* Content styles */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Contact styles */
+#contact {
+  text-align: center;
+  color: #333333;
+}
+
+/* Additional Section styles */
+#about {
+  background-color: #ffffff; /* White background for about section */
+  color: #333333;
+}
+
+#portfolio {
+  background-color: #ffffff; /* White background for portfolio section */
+  color: #333333;
+}
+
+img {
+  max-width: 100%; /* Ensures the image won't exceed its container's width */
+  height: auto; /* Allows the image's height to adjust proportionally */
+  display: block; /* Removes any default whitespace and aligns the image correctly */
+  margin: 0 auto; /* Centers the image horizontally within its container */
+}
+
+
+  .view {
+    transform: rotate(270deg);
+  }
+
+/* Adjusting for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Responsive header padding */
+  .header {
+      padding: 50px 0;
+  }
+
+  /* Responsive font sizes */
+  .header h1 {
+      font-size: 2rem;
+  }
+
+  /* Adjusting margin for navbar list items */
+  .navbar-list li {
+      margin: 0 10px;
+  }
+
+  /* Adjusting padding for sections */
+  .section {
+      padding: 60px 0;
+  }
+
+  /* Responsive font size for section headings */
+  .section h2 {
+      font-size: 1.5rem;
+  }
+}
